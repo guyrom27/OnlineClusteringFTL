@@ -74,6 +74,7 @@ if __name__ == '__main__':
         X = np.linspace(0,1,spacing)
         while True:
             for site in range(spacing):
+                print('site', site)
                 yield X[site]
 
 
@@ -95,15 +96,15 @@ if __name__ == '__main__':
 
     print(" running lex")
     iteratorLex = iter(iterate_lex())
-    Lex = run_ftl(lambda: next(iteratorLex), k, d, T, name='mnist_lex')
+    #Lex = run_ftl(lambda: next(iteratorLex), k, d, T, name='mnist_lex')
 
     print(" running 1d lex")
-    iteratorLex1d = iter(iterate_equally_spaced_1d_lex(int(T**(1/2)),int(T**(1/2))))
-    Lex1d = run_ftl(lambda: next(iteratorLex), 3, 1, T, name='eq1d_lexk2')
+    iteratorLex1d = iter(iterate_equally_spaced_1d_lex(int(T**(1/2))+1,int(T**(1/2))+1))
+    Lex1d = run_ftl(lambda: next(iteratorLex1d), 3, 1, T, name='eq1d_lexk2')
 
     print(" running 1d RR")
     iteratorRR1d = iter(iterate_equally_spaced_1d_round_robin(int(T**(1/2))))
-    RR1d = run_ftl(lambda: next(iteratorLex), 3, 1, T, name='eq1d_RRk2')
+    RR1d = run_ftl(lambda: next(iteratorRR1d), 3, 1, T, name='eq1d_RRk2')
 
 
 
