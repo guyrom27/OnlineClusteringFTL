@@ -1,5 +1,6 @@
 import pickle
 import numpy as np
+from sklearn.cluster import KMeans
 
 T = 174*10
 d = 2
