@@ -10,7 +10,7 @@ The following is the regret halted at T vs. log(T) for FTL on MNIST, and on Gaus
 
 ![logarithmic regret](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/figures/ftl_counterexample.png)
 
-The Dissertation itself can be found here- [Thesis](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/Thesis-Online\ Clustering.pdf)
+The Dissertation itself can be found here- [Thesis](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/Thesis-Online_Clustering.pdf)
 
 The paper version can be found here- [Paper](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/paper-online_clustering.pdf)
 
