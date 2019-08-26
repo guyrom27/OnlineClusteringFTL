@@ -1,3 +1,9 @@
+# Online kmeans Clustering
+## Abstract
+[!Latex abstract](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/abstract.png)
+
+## Experimental Results for FTL
+
 This is the code used to generate the figure for my dissertation on online kmeans clustering.
  
 The jupyter notebook FTL.ipynb contains the simulation and plotting of the caounter example that shows that Follow-The-Leader (FTL) has linear regret for this problem. The following is the regret for an online algorithm was halted at different time steps T, of both FTL and MWUA (Multiplicative Weights Update Algorithm) that is run on the the historical FTL leaders.
