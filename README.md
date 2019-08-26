@@ -1,6 +1,6 @@
 # Online kmeans Clustering
 ## Abstract
-[!Latex abstract](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/abstract.png)
+![Latex abstract](https://github.com/guyrom27/OnlineClusteringFTL/blob/master/abstract.png)
 
 ## Experimental Results for FTL
 
